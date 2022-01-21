@@ -1,9 +1,9 @@
 from typing import Any
-from main import is_prime
+from main import find_prime
 
 
 def test(input_data: Any, expect: Any, verbose=True):
-    actual = is_prime(input_data)
+    actual = find_prime(input_data)
     is_correct = expect == actual
     if verbose is True:
         print('Expect: {} \t Actual: {} \t is_correct: {}'.format(expect, actual, is_correct))

@@ -15,6 +15,11 @@ def test(input_data: Any, expect: Any, verbose=True):
 
 
 """
+First 20
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181
+"""
+
+"""
 Test case 01:
 """
 
@@ -31,8 +36,8 @@ Test case 02:
 
 
 def test_case_02():
-    input_data = 2
-    expect = 1
+    input_data = 5
+    expect = 5
     test(input_data=input_data, expect=expect)
 
 

@@ -1,5 +1,5 @@
 from typing import Any
-from main import find_prime
+from example import find_prime
 import time
 
 

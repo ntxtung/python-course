@@ -1,8 +1,8 @@
 import unittest
-from main import prime_factorization
+from example import prime_factorization
 
 
-class TestMaximumSubList(unittest.TestCase):
+class TestPrimeFactorization(unittest.TestCase):
 
     def test_case_01(self):
         input_data = 18

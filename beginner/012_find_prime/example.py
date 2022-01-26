@@ -19,6 +19,6 @@ def is_prime(n: int):
 def find_prime(n: int):
     result = []
     for i in range(2, n + 1):
-        if is_prime(i):
+        if is_prime(i) is True:
             result.append(i)
     return result

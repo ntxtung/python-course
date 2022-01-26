@@ -6,5 +6,15 @@ Output: return the list that
 """
 
 
+def factorial(n: int):
+    p = 1
+    for i in range(1, n + 1):
+        p = p*i
+    return p
+
+
 def first_n_factorial(n: int):
-    return None
+    result = []
+    for i in range(1, n + 1):
+        result.append(factorial(i))
+    return result

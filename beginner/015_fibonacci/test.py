@@ -1,5 +1,5 @@
 from typing import Any
-from example import fibonacci
+from main import fibonacci
 import time
 
 

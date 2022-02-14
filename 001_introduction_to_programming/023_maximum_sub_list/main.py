@@ -15,6 +15,10 @@ Source: https://leetcode.com/problems/maximum-subarray/
 
 def maximum_sub_list(input_list: list[int]) -> int:
     max_sums = 1
-
+    for i in range(0, len(input_list)):
+        for k in range(0, len(input_list)):
+            sum_sublist = sum(input_list[i:k+1])
+            if max_sums < sum_sublist:
+                max_sums = sum_sublist
     return max_sums
 

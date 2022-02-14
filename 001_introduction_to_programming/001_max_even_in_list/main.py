@@ -6,5 +6,15 @@ Output: a number which is the maximum even number in list, return None if not fo
 
 
 def max_even_in_list(input_list: list[int]):
-    return 0
+    even_l = []
+    for i in input_list:
+        if i % 2 == 0:
+            even_l.append(i)
+    if len(even_l) == 0:
+        return None
+    max_even = even_l[0]
+    for i in even_l:
+        if max_even < i:
+            max_even = i
+    return max_even
 

@@ -13,4 +13,17 @@ that the symbols 'A', 'C', 'G', and 'T' occur in s.
 
 
 def counting_dna_nucleotides(dna_string: str) -> str:
-    return 'True'
+    count_a = 0
+    count_c = 0
+    count_g = 0
+    count_t = 0
+    for i in dna_string:
+        if i == 'A':
+            count_a += 1
+        if i == 'C':
+            count_c += 1
+        if i == 'G':
+            count_g += 1
+        if i == 'T':
+            count_t += 1
+    return '{} {} {} {}'.format(count_a, count_c, count_g, count_t)

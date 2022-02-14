@@ -14,5 +14,14 @@ y < x + z
 """
 
 
+def distance_of_two_point(a: tuple[int, int], b: tuple[int, int]):
+    return ((b[0]-a[0])**2 + (b[1] - a[1])**2)**0.5
+
+
 def is_triangle(a: tuple[int, int], b: tuple[int, int], c: tuple[int, int]) -> bool:
-    return True
+    ab = distance_of_two_point(a, b)
+    ac = distance_of_two_point(a, c)
+    bc = distance_of_two_point(b, c)
+    if ab < ac + bc and ac < ab + bc and bc < ac + ab:
+        return True
+    return False

@@ -1,5 +1,5 @@
 import unittest
-from example import counting_point_mutations
+from main import counting_point_mutations
 
 
 class TestHAMM(unittest.TestCase):

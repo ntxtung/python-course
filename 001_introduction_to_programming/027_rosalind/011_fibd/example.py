@@ -16,9 +16,12 @@ Given: Two DNA strings s and t (each of length at most 1 kbp).
 
 Return: All locations of t as a substring of s.
 """
-import re
 
 
-def finding_a_motif_in_dna(s: str, sub_s: str):
-    for i in s:
+def fibd(n: int, m: int):
+    if n == 1 or n == 2:
+        return 1
+    fibn1 = fibd(n-1, m)
+    return fibn1 + fibd(n-2, m) - (fibn1 // (m-1))
 
+print(fibd(35, 20))

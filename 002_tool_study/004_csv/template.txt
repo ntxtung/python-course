@@ -1,0 +1,14 @@
+GIẤY CHỨNG NHẬN SINH VIÊN
+
+Trường Đại học Quốc tế thuộc Đại học Quốc gia Thành phố Hồ Chí Minh chứng nhận:
+Sinh viên: {fullName}
+MSSV: {studentId}
+Ngày, tháng, năm, sinh: {birthday}
+Nơi sinh: {birthplace}
+Hiện là sinh viên đang theo học tại Trường Đại học Quốc tế.
+Khóa: {schoolYear}
+Khoa: {department}
+Hình thức đào tạo: {formal}.
+Thời gian học tối đa (theo quy chế học vụ hiện hành): {expiredDate}
+Giấy chứng nhận này được cấp cho đương sự để: {reason}.
+Trân trọng./.

@@ -1,0 +1,6 @@
+StudentId,FullName,DoB,Address,StartYear,EndYear,FormalType,Department,ExpiredDate,Reason
+ITITIU16019,Vũ Tùng Dương,20/02/1998,Hải Phòng,2016,2020,General,Computer Science and Engineering,09/2022,Marriage
+ITITIU16101,Trần Đức Khoa,06/12/1998,Trà Vinh,2016,2020,General,Computer Science and Engineering,09/2022,Postpone Military Service
+ITITIU16144,Nguyễn Thanh Xuân Tùng,20/02/1998,Khánh Hoà,2016,2020,General,Computer Science and Engineering,09/2022,Postpone Military Service
+ITITIU16142,Lê Tuấn,16/07/1998,TP HCM,2016,2020,General,Computer Science and Engineering,09/2022,Marriage
+BTBTIU16055,Dương Bảo Châu,13/11/1998,Tiền Giang,2016,2020,General,Biotechnology,09/2022,Quẩy

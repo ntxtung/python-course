@@ -40,4 +40,5 @@ def main():
     for line in student_data:
         write_to_file(template, line, 'output-{}.txt'.format(line[0]))
 
+
 main()

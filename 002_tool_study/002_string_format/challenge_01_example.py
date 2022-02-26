@@ -26,5 +26,7 @@ your_dear_student_datas = [
 # {name, gender, achievements[], desire_university}
 # into
 # {name, gender_pronoun, achievements, desire_university} (flattened)
+
+
 def transform_data(data):
     gender_pronoun = 'He' if data['gender'] == 'male' else 'She'

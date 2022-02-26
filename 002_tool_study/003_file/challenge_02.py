@@ -25,3 +25,38 @@ For this challenge, your target is read the data as json type from a separate fi
 And write out the letters to each file.
 """
 import json
+
+# Opening JSON file
+f = open('data.json')
+
+# returns JSON object as
+# a dictionary
+data = json.load(f)
+
+
+template = open('template.txt', 'r')
+template_input = template.read()
+template.close()
+
+
+def transform_data(data):
+    gender_pronoun = 'He' if data['gender'] == 'male' else 'She'
+    return template_input.format(
+        date='22/02/2022',
+        student_dream_university_name=data['desire_university'],
+        student_full_name=data['name'],
+        subject=gender_pronoun,
+        achievements='\n'.join(data['achievement']))
+
+
+for i in data:
+    transform_data(i)
+
+# Closing file
+f.close()
+# Write text to file
+counter = 1
+for i in data:
+    f = open('file{}.txt'.format(counter), 'w')
+    counter+=1
+    f.write(transform_data(i))

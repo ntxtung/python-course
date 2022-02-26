@@ -44,3 +44,33 @@ your_dear_student_datas = [
         'desire_university': 'University of Economics HCMC'
     }
 ]
+template = '''
+{date}
+
+Dear {student_dream_university_name}
+
+On behalf of the HCMC Internation University, school of Biotechnology. My name is Chau Duong. I'm pleased to introduce
+you my dear student {student_full_name}. {subject} has achieved many outstanding achievements with enthusiastic and
+persistent attitude. This letter represents an assurance of my student quality.
+
+Achievement:
+{achievements}
+
+Regards
+
+Chau Duong'''
+
+
+def transform_data(data):
+    gender_pronoun = 'He' if data['gender'] == 'male' else 'She'
+    print(template.format(
+        date='22/02/2022',
+        student_dream_university_name=data['desire_university'],
+        student_full_name=data['name'],
+        subject=gender_pronoun,
+        achievements='\n'.join(data['achievement'])))
+
+
+for i in your_dear_student_datas:
+    transform_data(i)
+

@@ -1,0 +1,14 @@
+{date}
+
+Dear {student_dream_university_name}
+
+On behalf of the HCMC Internation University, school of Biotechnology. My name is Chau Duong. I'm pleased to introduce
+you my dear student {student_full_name}. {subject} has achieved many outstanding achievements with enthusiastic and
+persistent attitude. This letter represents an assurance of my student quality.
+
+Achievement:
+{achievements}
+
+Regards
+
+Chau Duong

@@ -1,6 +1,6 @@
 ﻿# Python Excercise
  
- This repo was construct when I taught my ▮▮. After the ▮▮▮▮ ▮▮, I see no motivation to continue this one anymore. But btw it still helpful.
+ This repo was constructed when I taught my ▮▮. After the ▮▮▮▮ ▮▮, I see no motivation to continue this one anymore. But btw it still helpful.
  
  The program contains 5 part. The detail is given below
  

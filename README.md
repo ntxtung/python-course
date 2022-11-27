@@ -6,7 +6,7 @@
  
  # Chapter 0
  
- This chapter is designed to give the learer motivation, future path of computer programming. Currently, some link about programming jokes video is given.
+ This chapter is designed to give the learner motivation, future path of computer programming. Currently, some link about programming jokes video is given.
  
  # Chapter 1
  
